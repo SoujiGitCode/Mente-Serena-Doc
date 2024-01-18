@@ -147,9 +147,9 @@ Antes de clonar los repositorios, asegúrate de que el agente SSH esté en ejecu
     eval "$(ssh-agent -s)"
     ```
 
-2. **Añadir la Clave SSH al Agente**:
+2. **Añadir la Clave SSH al Agente, en este ejemplo la clave ssh esta en el directorio que contiene a todos los ambientes**:
     ```sh
-    ssh-add ~/.ssh/id_rsa
+    ssh-add ../reikey 
     ```
 
 ### Clonar los Repositorios
